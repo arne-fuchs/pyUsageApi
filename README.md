@@ -2,34 +2,35 @@
 Minimal Api to call system infos written in python
 
 The api will run on port 8001
+All objects will be returned as json obejcts
 
 #Usage
 
 localhost:5000/cpuinfo
 
-Returns string with CPU usage in percent
+Returns CPU usage in percent
 
 
 localhost:5000/cpucount
 
-Returns string with numbers of logical CPU cores
+Returns numbers of logical CPU cores
 
 
 localhost:5000/temp
 
-Return string with temperatures (Doesnt work yet)
+Returns temperatures
 
 
 localhost:5000/netstat
 
-Returns string with netstats
+Returns netstats
 
 
 localhost:5000/uptime
 
-Returns string with the current uptime in seconds
+Returns current uptime in seconds
 
 
 localhost:5000/memoryinfo
 
-Returns json object with memory info
+Returns memory info

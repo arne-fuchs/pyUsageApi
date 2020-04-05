@@ -10,6 +10,8 @@ git clone https://github.com/arne-fuchs/pyUsageApi.git
 
 cd pyUsageApi.git
 
+sudo chmod +x install
+
 ./install
 
 

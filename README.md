@@ -2,7 +2,7 @@
 Minimal Api to call system infos written in python
 
 The api will run on port 8001
-All objects will be returned as json obejcts
+All objects will be returned as json obejects
 
 # Install
 

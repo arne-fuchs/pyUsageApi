@@ -1,7 +1,7 @@
 # pyUsageApi
 Minimal Api to call system infos written in python
 
-The api will run on port 5000
+The api will run on port 8001
 
 #Usage
 

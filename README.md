@@ -7,12 +7,16 @@ All objects will be returned as json obejcts
 # Install
 
 git clone https://github.com/arne-fuchs/pyUsageApi.git
+
 cd pyUsageApi.git
+
 ./install
+
 
 The program will be started in the background
 
 You may want to add it to crontab with 
+
 @reboot python3 /path/to/script/api.py 
 
 # Usage

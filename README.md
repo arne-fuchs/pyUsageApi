@@ -4,33 +4,44 @@ Minimal Api to call system infos written in python
 The api will run on port 8001
 All objects will be returned as json obejcts
 
-#Usage
+# Install
 
-localhost:5000/cpuinfo
+git clone https://github.com/arne-fuchs/pyUsageApi.git
+cd pyUsageApi.git
+./install
+
+The program will be started in the background
+
+You may want to add it to crontab with 
+@reboot python3 /path/to/script/api.py 
+
+# Usage
+
+localhost:8001/cpuinfo
 
 Returns CPU usage in percent
 
 
-localhost:5000/cpucount
+localhost:8001/cpucount
 
 Returns numbers of logical CPU cores
 
 
-localhost:5000/temp
+localhost:8001/temp
 
 Returns temperatures
 
 
-localhost:5000/netstat
+localhost:8001/netstat
 
 Returns netstats
 
 
-localhost:5000/uptime
+localhost:8001/uptime
 
 Returns current uptime in seconds
 
 
-localhost:5000/memoryinfo
+localhost:8001/memoryinfo
 
 Returns memory info

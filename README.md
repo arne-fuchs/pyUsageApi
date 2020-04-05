@@ -5,15 +5,25 @@ The api will run on port 8001
 All objects will be returned as json obejects
 
 # Install
+```
 
 git clone https://github.com/arne-fuchs/pyUsageApi.git
+```
+
+```
 
 cd pyUsageApi
+```
+
+```
 
 sudo chmod +x install
+```
+
+```
 
 ./install
-
+```
 
 The program will be started in the background
 
@@ -22,8 +32,10 @@ You may want to add it to crontab with
 @reboot python3 /path/to/script/api.py 
 
 Example for home folder:
+```
 
 @reboot python3 ~/pyUsageApi/api.py
+```
 
 # Usage
 

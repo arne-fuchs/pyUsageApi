@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo apt update
+sudo apt install python3
+sudo pip3 install flask
+sudo pip3 install psutil
+sudo pip3 install uptime
+nohup python3 api.py &

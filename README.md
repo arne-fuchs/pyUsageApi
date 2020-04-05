@@ -21,6 +21,10 @@ You may want to add it to crontab with
 
 @reboot python3 /path/to/script/api.py 
 
+Example for home folder:
+
+@reboot python3 ~/pyUsageApi/api.py
+
 # Usage
 
 localhost:8001/cpuinfo

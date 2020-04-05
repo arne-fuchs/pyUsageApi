@@ -4,6 +4,7 @@ Minimal Api to call system infos written in python
 The api will run on port 5000
 
 #Usage
+
 localhost:5000/cpuinfo
 Returns string with CPU usage in percent
 

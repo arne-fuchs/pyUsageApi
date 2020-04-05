@@ -8,7 +8,7 @@ All objects will be returned as json obejcts
 
 git clone https://github.com/arne-fuchs/pyUsageApi.git
 
-cd pyUsageApi.git
+cd pyUsageApi
 
 sudo chmod +x install
 

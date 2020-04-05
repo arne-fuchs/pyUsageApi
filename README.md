@@ -6,22 +6,18 @@ All objects will be returned as json obejects
 
 # Install
 ```
-
 git clone https://github.com/arne-fuchs/pyUsageApi.git
 ```
 
 ```
-
 cd pyUsageApi
 ```
 
 ```
-
 sudo chmod +x install
 ```
 
 ```
-
 ./install
 ```
 
@@ -33,7 +29,6 @@ You may want to add it to crontab with
 
 Example for home folder:
 ```
-
 @reboot python3 ~/pyUsageApi/api.py
 ```
 

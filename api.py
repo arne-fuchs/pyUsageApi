@@ -8,7 +8,7 @@ app = flask.Flask(__name__)
 
 @app.route('/cpuinfo', methods=['GET'])
 def cpuinfo():
-    return jsonify({'cpu_percent': psutil.cpu_count()})
+    return jsonify({'cpu_percent': psutil.cpu_percent(interval=None,percpu=False)})
 
 @app.route('/cpucount', methods=['GET'])
 def cpucount():

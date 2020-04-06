@@ -37,7 +37,7 @@ Example for home folder:
 localhost:8001/cpuinfo
 
 Returns CPU usage in percent:
-{'cpu_percent': psutil.cpu_count()}
+{'cpu_percent': psutil.cpu_percent(interval=None,percpu=False)}
 
 localhost:8001/cpucount
 

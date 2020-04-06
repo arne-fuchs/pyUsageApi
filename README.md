@@ -37,27 +37,27 @@ Example for home folder:
 localhost:8001/cpuinfo
 
 Returns CPU usage in percent:
-[{'cpu_percent': psutil.cpu_count()}]
+{'cpu_percent': psutil.cpu_count()}
 
 localhost:8001/cpucount
 
 Returns numbers of logical CPU cores:
-[{'cpu_count':psutil.cpu_count()}]
+{'cpu_count':psutil.cpu_count()}
 
 localhost:8001/temp
 
 Returns temperatures:
-[{'sensors_temperatures':psutil.sensors_temperatures(fahrenheit=False)}]
+{'sensors_temperatures':psutil.sensors_temperatures(fahrenheit=False)}
 
 localhost:8001/netstat
 
 Returns netstats:
-[{'net_stat':psutil.net_io_counters()}]
+{'net_stat':psutil.net_io_counters()}
 
 localhost:8001/uptime
 
 Returns current uptime in seconds:
-[{'uptime':uptime()}]
+{'uptime':uptime()}
 
 localhost:8001/memoryinfo
 

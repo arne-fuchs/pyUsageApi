@@ -8,26 +8,26 @@ app = flask.Flask(__name__)
 
 @app.route('/cpuinfo', methods=['GET'])
 def cpuinfo():
-    return jsonify([{'cpu_percent': psutil.cpu_count()}])
+    return jsonify({'cpu_percent': psutil.cpu_count()})
 
 @app.route('/cpucount', methods=['GET'])
 def cpucount():
-    return jsonify([{'cpu_count':psutil.cpu_count()}])
+    return jsonify({'cpu_count':psutil.cpu_count()})
 
 
 @app.route('/temp', methods=['GET'])
 def temp():
-    return jsonify([{'sensors_temperatures':psutil.sensors_temperatures(fahrenheit=False)}])
+    return jsonify({'sensors_temperatures':psutil.sensors_temperatures(fahrenheit=False)})
 
 
 @app.route('/netstat', methods=['GET'])
 def netstats():
-    return jsonify([{'net_stat':psutil.net_io_counters()}])
+    return jsonify({'net_stat':psutil.net_io_counters()})
 
 
 @app.route('/uptime', methods=['GET'])
 def currentuptime():
-    return jsonify([{'uptime':uptime()}])
+    return jsonify({'uptime':uptime()})
 
 
 @app.route('/memoryinfo', methods=['GET'])
